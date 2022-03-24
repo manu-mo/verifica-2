@@ -1,0 +1,18 @@
+    1. Cosa fa il comando 'git add <file>'? Spiega come funziona la staging area
+    
+    Con "git add" facciamo passare un file dalla working dir alla staging area.
+    Staging area è la zona temporanea con cui git prepara un commit.
+
+
+
+
+    2. Descrivi il comando 'git branch <nuovo branch>', spiegando come funziona la history, cosa sono i branch e cosa è la HEAD
+    
+    Branch: una linea indipendente di sviluppo del progetto con il suo storico
+    Il termine HEAD si riferisce al commit corrente che stai visualizzando.
+    git branch <nuovo branch>: crea un nuovo branch a partire del branch corrente
+    
+
+    3. Cos'è un repository remoto? Descrivi cosa fa il comando 'git fetch'
+    git fetch è un comando principale utilizzato per scaricare contenuti da un repository remoto, scarica metadati senza modificare la repo locale.
+    Sostanzialmente si tratta di risorse accessibili dalla Rete o da una piattaforma localizzata esternamente rispetto alla propria configurazione locale.
