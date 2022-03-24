@@ -1,8 +1,8 @@
-Nome:
-Cognome:
+Nome: Michele Davide
+Cognome: Aliverti
 
-Fila:
-Postazione:
+Fila: 2
+Postazione: 6
 
 
 # VERIFICA: Fondamenti di version control
