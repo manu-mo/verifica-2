@@ -1,0 +1,31 @@
+1. Cosa fa il comando 'git restore --staged <file>'? Spiega come funziona la staging area
+
+Il comando "git restore" consente di annullare la creazione di scenari o addirittura di eliminare le modifiche
+locali di cui non è stato eseguito il commit.
+
+git restore --staged rimuove i file esistenti dalla staging area.
+
+_________________________________________________________________________________
+
+ 2. Descrivi il comando 'git merge <branch>', spiegando come funziona la history,
+  cosa sono i branch e cosa è la HEAD
+
+  git merge unisce due rami.
+
+  La history tiene traccia di tutte le modifiche, dei merge e delle commit fatte.
+
+  Un branch è una linea di sviluppo indipendente del progetto, cioè una versione dei file
+  e delle cartelle che compongono il progetto. Un branch nasce a partire da un altro branch
+  esistente e si sviluppa nel tempo in maniera indipendente,
+  mantenendo traccia delle modifiche che vengono effettuate sui files.
+
+  Il puntatore HEAD è una "freccina" che rappresenta il nostro punto di vista all'interno del repository:
+  punta ad un branch (che a sua volta punta ad un commit)
+
+  _________________________________________________________________________________
+
+  3. Cos'è un repository remoto? Descrivi cosa fa il comando 'git pull'
+
+  Un repository remoto è un repository che si trova su un server e quindi non in locale.
+
+  git pull scarica il branch remoto ed effettua un merge.
