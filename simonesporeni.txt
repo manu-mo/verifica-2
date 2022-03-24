@@ -1,0 +1,9 @@
+    1. Cosa fa il comando 'git status'? Spiega come funziona la staging area
+    2. Descrivi il comando 'git checkout <branch>', spiegando come funziona la history, cosa sono i branch e cosa è la HEAD
+    3. Cos'è un repository remoto? Descrivi cosa fa il comando 'git clone <remote repository>'
+
+
+    1)Con il comando git status vediamo lo stato dei file tracciati, quando abbiamo un file tracciato nella repository e lo modifichiamo con il comando git status vediamo se è gia nella staging area o no
+      la staging area è l'area dove i file modificati stanno prima di essere committati
+    2)il comando checkout sposta il focus sul nome del branch specificato la history è linsieme dei branch(rami) e dei commit HEAD e il branch corrente dove si lavora quindi il focus di lavoro.
+    3)un repository remoto è un repository hostato con un url quindi accessibile da chi ha le chiavi il comando git clone ... clona il repository remoto in locale per poterci lavorare.

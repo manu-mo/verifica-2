@@ -1,0 +1,24 @@
+1. Cosa fa il comando 'git commit -m <commento>'? Spiega come funziona la staging area
+
+'git commit -m <commento>' Crea un nuovo commit contenente il contenuto corrente dell'indice e il messaggio di registro fornito che descrive le modifiche.
+la staging area 
+
+L'area di staging è costituita dai file che faranno parte del prossimo commit, il che consente a git di sapere quali modifiche si verificheranno nel file per il prossimo commit. Il repository contiene tutti i commit di un progetto.
+
+
+2. Descrivi il comando 'git checkout -b <nuovo branch>', spiegando come funziona la history, cosa sono i branch e cosa è la HEAD
+
+git checkout si riferisce all'azione di scambio tra diversi rami/file. 
+
+la history e la cronlogia di tutte le commit fatte dal user
+
+I rami ti consentono di sviluppare funzionalità, correggere bug o sperimentare in sicurezza nuove idee in un'area contenuta del tuo repository.
+
+La head è considerabile il branch corrente in qui stai lavorando.
+
+
+3. Cos'è un repository remoto? Descrivi cosa fa il comando 'git branch -a'
+
+I repository remoti sono versioni del tuo progetto che sono ospitati su Internet o in rete privata. 
+
+il comando git branch -a ti consente di vedere tutti i branch nel tuo repo sia da remoto che in locale 
