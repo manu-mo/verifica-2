@@ -1,0 +1,13 @@
+1. Cosa fa il comando 'git reset HEAD~1'? Spiega come funziona la staging area
+"git reset HEAD~1" torna indietro di una commit.
+La staging area è la zona temporanea con cui git prepara un commit. Con "git add" si fa passare un file dalla working dir alla staging area, con "git commit" si fa passare un file dalla staging area alla history.
+
+2. Descrivi il comando 'git checkout <branch>', spiegando come funziona la history, cosa sono i branch e cosa è la HEAD
+"git checkout <branch>" sposta la HEAD al branch, allineando lo stato della working directory a quella del branch.
+La history è la cronologia di tutte le commits e ha la forma di un grafico.
+Il branch è una linea di sviluppo indipendente del progetto, cioè una versione dei file e delle cartelle che compongono il progetto.
+La HEAD è il puntatore di riferimento al branch corrente in sui stai lavorando. 
+
+3. Cos'è un repository remoto? Descrivi cosa fa il comando 'git clone <remote repository>'
+Repository è la struttura dati che contiene i meta-dati relativi all'insieme di file e cartelle di un progetto.
+"git clone <remote repository>" serve per clonare la repository.
